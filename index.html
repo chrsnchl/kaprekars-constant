@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Kaprekar's Constant</title>
+	</head>
+	<body>
+		<div class="explanation">
+			<p>
+			This Math concept is known as Kaprekar's Constant.
+			</p>
+			<p>
+			Take any four digit number, with varied digits. (example: 5413)
+			</p>
+			<p>
+			Arrange the digits from highest to lowest (5431)
+			</p>
+			<p>
+			Arrange the digits from lowest to highest (1345)
+			</p>
+			<p>
+			Subtract the first number from the second, and repeat the process
+			</p>
+			<p>
+			You will eventually arrive at 6174 and remain there indefinitely.
+			</p>
+		</div>
+
+		<input type='text' id='number'>
+		<button onclick="calculate()">Calculate</button>
+
+		<div id="chalkboard" class="chalkboard">
+
+		</div>
+
+
+	</body>
+	<script src='index.js'></script>
+</html>
